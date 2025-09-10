@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tache_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="232dp"
+            android:text="Nom de la tâche"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvProgressionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avancement"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNom" />
+
+        <TextView
+            android:id="@+id/tvProgression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progression"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tvProgressionTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvNom" />
+
+
+        <TextView
+            android:id="@+id/tvPercentageSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tvProgression"
+            app:layout_constraintTop_toBottomOf="@id/tvNom" />
+
+
+        <TextView
+            android:id="@+id/tvDateDebutTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temps_ecoule"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvProgression" />
+
+        <TextView
+            android:id="@+id/tvPourcentageTempsEcoule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Temps écoulé"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tvDateDebutTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvProgression"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDateFinTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_de_fin"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvPourcentageTempsEcoule" />
+
+        <TextView
+            android:id="@+id/tvDateFin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date de fin"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tvDateFinTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvPourcentageTempsEcoule"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

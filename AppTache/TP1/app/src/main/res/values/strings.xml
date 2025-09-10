@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="ouvert">ouvert</string>
+    <string name="ferme">ferme</string>
+
+    <string name="accueil">Accueil</string>
+    <string name="progression">Progression:</string>
+    <string name="date_de_debut">Date de début:</string>
+    <string name="date_de_fin">Date de fin:</string>
+
+    <string name="connexion">Connexion</string>
+    <string name="nom_d_utilisateur">Nom d\'utilisateur</string>
+    <string name="mot_de_passe">Mot de passe</string>
+
+    <string name="inscription">Inscription</string>
+    <string name="confirmation_de_mot_de_passe">Confirmation de mot de passe</string>
+    <string name="temps_ecoule">Temps écoulé:</string>
+    <string name="avancement">Avancement:</string>
+
+    <string name="nouvelle_tache">Nouvelle tâche</string>
+    <string name="nom_de_la_tache">Nom de la tâche</string>
+    <string name="veuillez_choisir_une_date_decheance">Veuillez choisir une date d\'échéance:</string>
+    <string name="creer">Créer</string>
+
+    <string name="ajouter_une_tache">Ajouter une tâche</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="modifier">Modifier</string>
+
+    <string name="erreur_serveur">Impossible de se connecter au serveur. Veuillez vérifier votre connexion Internet ou réessayer plus tard.</string>
+    <string name="erreur_connexion">Le nom d\'utilisateur ou le mot de passe que vous avez entré est incorrect.</string>
+    <string name="btn_modifier">Modifier</string>
+    <string name="erreur_nomUtilisateur">Le nom d\'utilisateur existe déjà</string>
+    <string name="erreur_nomUtilisateur_trop_court">Le nom d\'utilisateur est trop court</string>
+    <string name="minimum_caractere_nom">Minimum 2 caractères</string>
+    <string name="minimum_caractere_password">Minimum 4 caractères</string>
+    <string name="erreur_password_court">Le mot de passe est trop court</string>
+    <string name="erreur_password_different">Les mots de passe ne correspondent pas</string>
+    <string name="btn_reessayer">Réessayer</string>
+    <string name="chargement">Chargement...</string>
+    <string name="supprimer">Supprimer</string>
+
+</resources>

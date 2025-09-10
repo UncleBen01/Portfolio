@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accueil_item"
+        android:checkable="true"
+        android:title="@string/accueil" />
+    <item
+        android:id="@+id/ajouter_item"
+        android:checkable="true"
+        android:title="@string/ajouter_une_tache" />
+    <item
+        android:id="@+id/deconnexion_item"
+        android:checkable="true"
+        android:title="@string/deconnexion" />
+</menu>

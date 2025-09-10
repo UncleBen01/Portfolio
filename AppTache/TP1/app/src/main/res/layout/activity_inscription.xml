@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nom_d_utilisateur" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/confirmation_de_mot_de_passe"
+        android:inputType="textPassword"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <ProgressBar
+        android:id="@+id/loadingPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/btn_Inscription"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="@string/inscription"
+        />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TP1</string>
+    <string name="ouvert">opened</string>
+    <string name="ferme">closed</string>
+
+    <string name="accueil">Home</string>
+    <string name="progression">Progress:</string>
+    <string name="date_de_debut">Start Date:</string>
+    <string name="date_de_fin">Due Date:</string>
+
+    <string name="connexion">Login</string>
+    <string name="nom_d_utilisateur">Username</string>
+    <string name="mot_de_passe">Password</string>
+
+    <string name="inscription">Register</string>
+    <string name="confirmation_de_mot_de_passe">Confirm password</string>
+
+    <string name="temps_ecoule">Elapsed time:</string>
+    <string name="avancement">Progress:</string>
+
+    <string name="nouvelle_tache">New task</string>
+    <string name="nom_de_la_tache">Task\'s name</string>
+    <string name="veuillez_choisir_une_date_decheance">Please choose a due date:</string>
+    <string name="creer">Create</string>
+
+    <string name="ajouter_une_tache">Add new task</string>
+    <string name="deconnexion">Logout</string>
+    <string name="modifier">Save</string>
+    <string name="supprimer">Delete</string>
+
+    <string name="erreur_serveur">Unable to connect to the server. Please check your internet connection or try again later.</string>
+    <string name="erreur_connexion">The username or password you entered is incorrect. </string>
+    <string name="btn_modifier">Change</string>
+    <string name="erreur_nomUtilisateur">Username already exists</string>
+    <string name="erreur_nomUtilisateur_trop_court">Username is too short</string>
+    <string name="minimum_caractere_nom">At least 2 characters</string>
+    <string name="minimum_caractere_password">At least 4 characters</string>
+    <string name="erreur_password_court">Password is too short</string>
+    <string name="erreur_password_different">Passwords do not match</string>
+    <string name="btn_reessayer">Try again</string>
+    <string name="chargement">Loading...</string>
+
+</resources>
