@@ -14,10 +14,10 @@ Voici un résumé de mes projets de programmation complétés et en développeme
 **Technologies utilisées:** C#, Unity, Blender
 
 **Résumé des fonctionnalités:**
-- Système d'interactions centralisé
-- Possibilité de placer des objets dans son étagère approprié
-- Possibilité d'utiliser la caisse afin de faire payer un client (inclu l'interaction de scannage des articles, un interface de paiement à la caisse, paiement en argent comptant ou par carte)
-- IA simple de client qui apparait, va chercher des articles et les apporte à la caisse pour les faire payer. Fonctionne à l'aide d'une simple state machine. 
+- Système d'interactions centralisé.
+- Possibilité de placer des objets sur l'étagère appropriée.
+- Utilisation de la caisse pour faire payer un client (inclut l'interaction de scannage des articles, interface de paiement à la caisse, paiement en argent comptant ou par carte).
+- IA simple de clients: apparaissent, choisissent aléatoirement des articles et les apportent à la caisse pour paiement. Fonctionne à l’aide d’une simple machine à états (state machine).
 <img width="1533" height="858" alt="image" src="https://github.com/user-attachments/assets/4e358cc2-047f-4f18-a200-6dcc2e67c57f" />
 
 <img width="1548" height="863" alt="image" src="https://github.com/user-attachments/assets/8bf81c66-0a85-48d8-b978-99788f0757f8" />
@@ -26,6 +26,18 @@ Voici un résumé de mes projets de programmation complétés et en développeme
 
 ---
 
-## 📱 Application mobile Android qui communique avec un Serveur SpringBoot
+## 📱 Application mobile Android
+*Le code est dans le projet AppTache*
+
+**Description:** Application mobile permettant d’ajouter, modifier et supprimer des tâches, avec communication direct avec un serveur Spring Boot.
+
+**Technologies utilisées:** Kotlin, Android Studio, Java, Spring Boot
+
+**Résumé des fonctionnalités:**
+- Création de compte, connexion et déconnexion.
+- Création, modification et suppression de tâches.
+- Requêtes HTTP au serveur.
+- Navigation via boutons et barre de navigation (Navigation Bar).
+
 
 
